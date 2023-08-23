@@ -10,4 +10,5 @@ urlpatterns = [
     
     #Create
     path('new/', views.new, name='new'),
+    path('create/', views.create, name='create'),
 ]
